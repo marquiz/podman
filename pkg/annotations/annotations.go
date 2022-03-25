@@ -106,6 +106,9 @@ const (
 	// ContainerManager is the annotation key for indicating the creator and
 	// manager of the container.
 	ContainerManager = "io.container.manager"
+
+	// ClassResources contains the sandbox class resources
+	ClassResources = "io.kubernetes.cri-o.ClassResources"
 )
 
 // ContainerType values
